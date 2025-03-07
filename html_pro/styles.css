@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.featured-work {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    width: 100%;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.title {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Abril Fatface', serif;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+.description {
+    max-width: 600px;
+    font-size: 18px;
+    line-height: 1.6;
+}
